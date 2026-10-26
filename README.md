@@ -60,3 +60,8 @@ In any Claude Code session:
 
 - `SKILL.md` contains the skill definition: frontmatter, the disk check, the output contract and two worked examples.
 - `Makefile` installs and uninstalls the skill.
+- `LICENSE` is the GNU GPL v3 text.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 or later. See `LICENSE`.

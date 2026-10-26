@@ -9,7 +9,7 @@ SKILLS_DIR ?= $(HOME)/.claude/skills
 DEST      := $(SKILLS_DIR)/$(SKILL)
 
 # Everything in the repo except repo tooling.
-EXCLUDE := --exclude .git --exclude .gitignore --exclude Makefile --exclude README.md --exclude __pycache__
+EXCLUDE := --exclude .git --exclude .gitignore --exclude Makefile --exclude README.md --exclude LICENSE --exclude __pycache__
 
 .PHONY: install uninstall
 
